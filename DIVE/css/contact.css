@@ -1,0 +1,22 @@
+tr {
+    height: 7rem;
+}
+
+th {
+    width: 150px;
+}
+
+.text {
+    width: 480px;
+}
+#button {
+    width: 100px;
+    height: 50px;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #66cccc;
+    margin-left: 300px;
+}
+#button:hover {
+    opacity: 0.6;
+}
