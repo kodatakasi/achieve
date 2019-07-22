@@ -2,5 +2,5 @@
 ## 課題提出
 - HTMLシリーズ課題１　完了
 - HTMLシリーズ課題２　完了
-- JavaScriptシリーズ課題　提出中
-
+- JavaScriptシリーズ課題　完了
+- Ruby課題　提出中
