@@ -59,11 +59,11 @@ number_of_visitors = seats_and_groups[1].to_i
   if next_seat_candidate.count == next_seat_candidate.uniq.count
     # 下記のコードが何をしているかを説明してください・・・（N）= 7
     if ((seating_number + users) - 1) > seats_count
-      # 下記の二行のコードが何をしているかを説明してください・・・（O）= 1
+      # 下記の二行のコードが何をしているかを説明してください・・・（O）= 17
       empty_seat = empty_seat - [*1..fill_last_number]
       empty_seat = empty_seat - [*seating_number..seats_count]
     else
-      # 下記のコードが何をしているかを説明してください・・・（P）= 17
+      # 下記のコードが何をしているかを説明してください・・・（P）= 1
       empty_seat = empty_seat - [*seating_number..fill_last_number]
     end
   end
