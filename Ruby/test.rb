@@ -19,6 +19,8 @@ server = WEBrick::HTTPServer.new({
 # 'test.html'を'test.html.erb'に変更する
 server.mount('/test', WEBrick::HTTPServlet::ERBHandler, 'test.html.erb')
 
+server.mount('/task', WEBrick::HTTPServlet::ERBHandler, 'task.html.erb')
+
 server.mount('/indicate.cgi', WEBrick::HTTPServlet::CGIHandler, 'indicate.rb')
 
 # この一行を追記
